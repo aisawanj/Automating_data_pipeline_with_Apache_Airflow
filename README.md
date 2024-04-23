@@ -1,11 +1,9 @@
 
-# **Data Pipeline (ETL) on Airflow**
+# **Automating data pipeline with Apache Airflow**
 
-Perform ETL operations on data using Airflow with the Airflow Operator and export the data to a data warehouse on Google BigQuery using the GCSToBigQueryOperator.
+This project is to create a pipeline that transforms data automatically to prepare it for use by Ingest data from MySQL database using SQL and getting data from Rest API, Transform data following business requirements defined using Python, and exporting data into the Data Warehouse on BigQuery using GCSToBigQueryOperator to support analysis in various parts of the next business.
 
-Reference on google colab:  [Click Here](https://colab.research.google.com/github/aisawanj/Data_Pipeline_ETL_on_Airflow/blob/main/Project_02_Data_Pipeline_(ETL)_on_Airflow.ipynb)
-
-Remarks : The Source Code has been referenced URL from DataTH for testing "project_02" / Cr.DataTH.
+Reference on google colab:  [Click Here](https://colab.research.google.com/drive/1T2ufzq5AIaLEcNoj39vmUTlqWx9vXWVW?usp=sharing)
 
 
 ### Graph of DAG “gcs_to_bq_dag” on Airflow
@@ -273,7 +271,7 @@ Task 4 use "GCSToBigQueryOperator" for export file to BigQuery
 
 ## **Reference on google colab**
 
-[Click Here](https://colab.research.google.com/github/aisawanj/Data_Pipeline_ETL_on_Airflow/blob/main/Project_02_Data_Pipeline_(ETL)_on_Airflow.ipynb)
+[Click Here](https://colab.research.google.com/drive/1T2ufzq5AIaLEcNoj39vmUTlqWx9vXWVW?usp=sharing)
 
 
 ## **License**
